@@ -45,8 +45,17 @@ print(ticket_price(10,False))
 print(ticket_price(20,True))
 print(ticket_price(20,False))    
 
-#part 2
+#self learn 
 #mission 1
 numbers = [5, 2, 9, 1, 7]
 numbers.sort()
 print(numbers)
+
+#mission 2
+students = [
+    ("Dana", 85),
+    ("Eli", 92),
+    ("Noa", 78)
+]
+new_students=sorted(students,key=lambda x:x[1])
+print(new_students)
