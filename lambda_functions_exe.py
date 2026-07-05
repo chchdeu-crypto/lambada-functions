@@ -12,6 +12,9 @@ grade_status= lambda grade : "pass" if grade>=55 else "fail"
 
 #mission 5
 large= lambda n1,n2 : n1 if n1>n2 or n1==n2 else n2
-print(large(4,4))
-print(large(5,4))
-print(large(1,4))
+
+#mission 6
+distance_from_10= lambda num : 10-num if num<=10 else num-10
+print(distance_from_10(7))
+print(distance_from_10(10))
+print(distance_from_10(15))
