@@ -9,5 +9,9 @@ full_name= lambda f_name,l_name: f"{f_name} {l_name}"
 
 #mission 4
 grade_status= lambda grade : "pass" if grade>=55 else "fail"
-print(grade_status(80))
-print(grade_status(40))
+
+#mission 5
+large= lambda n1,n2 : n1 if n1>n2 or n1==n2 else n2
+print(large(4,4))
+print(large(5,4))
+print(large(1,4))
