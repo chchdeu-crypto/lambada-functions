@@ -18,4 +18,10 @@ distance_from_10= lambda num : 10-num if num<=10 else num-10
 
 #mission 7
 item_total= lambda item:item["price"]*item["amount"]
-print(item_total({"name": "Pen", "price": 5, "amount": 10}))
+
+#mission 8
+shipping_cost=lambda whight,express : 50 if express and whight >5 else 30 if express else 25 if whight>5 else 10
+print(shipping_cost(3,True))
+print(shipping_cost(8,True))
+print(shipping_cost(8,False))
+print(shipping_cost(2,False))
