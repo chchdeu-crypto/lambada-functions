@@ -59,3 +59,11 @@ students = [
 ]
 new_students=sorted(students,key=lambda x:x[1])
 print(new_students)
+
+#mission 3
+students = [
+    {"name": "Dana", "grade": 85},
+    {"name": "Eli", "grade": 92},
+    {"name": "Noa", "grade": 78}
+]
+print(sorted(students,key=lambda student:student["grade"]))
