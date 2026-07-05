@@ -6,4 +6,8 @@ finel_price=lambda price,discount:price-discount
 
 #mission 3
 full_name= lambda f_name,l_name: f"{f_name} {l_name}"
-print(full_name("chaim","deustch"))
+
+#mission 4
+grade_status= lambda grade : "pass" if grade>=55 else "fail"
+print(grade_status(80))
+print(grade_status(40))
