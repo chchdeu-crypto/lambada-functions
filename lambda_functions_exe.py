@@ -67,3 +67,11 @@ students = [
     {"name": "Noa", "grade": 78}
 ]
 print(sorted(students,key=lambda student:student["grade"]))
+
+#mission 4
+products = [
+    {"name": "Pen", "price": 5, "amount": 10},
+    {"name": "Book", "price": 40, "amount": 2},
+    {"name": "Bag", "price": 80, "amount": 1}
+]
+print(sorted(products,key=lambda prodacd:prodacd["price"]*prodacd["amount"]))
