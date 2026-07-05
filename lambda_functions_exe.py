@@ -15,6 +15,7 @@ large= lambda n1,n2 : n1 if n1>n2 or n1==n2 else n2
 
 #mission 6
 distance_from_10= lambda num : 10-num if num<=10 else num-10
-print(distance_from_10(7))
-print(distance_from_10(10))
-print(distance_from_10(15))
+
+#mission 7
+item_total= lambda item:item["price"]*item["amount"]
+print(item_total({"name": "Pen", "price": 5, "amount": 10}))
